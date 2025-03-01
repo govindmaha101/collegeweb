@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - College Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: rgba(0, 51, 102, 0.9);
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .hero {
+      background: url(https://tse1.mm.bing.net/th?id=OIP.pgbJylAK2eNo099HPvyFLgAAAA&pid=Api&P=0&h=180) no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+        }
+    .hero h1 {
+      font-size: 4em;
+      color: white;
+      position: relative;
+      z-index: 1;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .quick-links {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      background-color: rgba(244, 244, 244, 0.9);
+      position: relative;
+      z-index: 1;
+    }
+    .quick-links a {
+      text-decoration: none;
+      color: #003366;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    .content {
+      padding: 60px 20px 20px;
+      background-color: white;
+      position: relative;
+      z-index: 1;
+    }
+    .content h2 {
+      color: #003366;
+    }
+    footer {
+      background-color: rgba(0, 51, 102, 0.9);
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+<a href='college2.html'>About Us </a>
+  <!-- Header -->
+  <header>
+    <img src="https://media.istockphoto.com/id/1124414832/vector/logo-college-academy-university-school-emblem.jpg?s=612x612&w=0&k=20&c=KplV_FF3tzMgGuOtgN1DAmz2PqJQ4Yp2P0yZpZ8llHs=" alt="College Logo">
+      </header>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    
+<h1>Buddha Institute of Technology, GIDA, Gorakhpur</h1>
+
+  </div>
+
+  <!-- Quick Links -->
+  <div class="quick-links">
+    <h2>Admissions</h2>
+    <h2> Courses</h2>
+    <h2> Events</h2>
+    <h2> Campus Life</h2>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <h2>About Our College</h2>
+    <p>We are a leading institution dedicated to providing quality education and fostering innovation. Our campus is equipped with state-of-the-art facilities, and we offer a wide range of programs to help students achieve their dreams.</p>
+    <h2>Latest News</h2>
+    <p>🎓 Admissions for the 2024 academic year are now open! Apply today to secure your spot.</p>
+    <p>🏆 Our college ranked #1 in the state for academic excellence.</p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Contact Us: info@college.edu | Phone: +123-456-7890</p>
+    <p>Follow Us: <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a></p>
+  </footer>
+</body>
+</html>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>Contact Us: info@kesshroffcollege.edu | Phone: +91-22-1234-5678</p>
+    <p>Follow Us: <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a></p>
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notices - KES Shroff College</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .content {
+      padding: 100px 20px 80px; /* Adjusted for fixed header and footer */
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .notice-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .notice-box {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .notice-box h2 {
+      color: #003366;
+      border-bottom: 2px solid #003366;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+    }
+    .notice-box ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .notice-box ul li {
+      margin: 10px 0;
+    }
+    .notice-box ul li a {
+      text-decoration: none;
+      color: #003366;
+      font-weight: bold;
+    }
+    .notice-box ul li a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head> 
+<body>
+  <!-- Header -->
+  <header>
+    <img src="https://media.istockphoto.com/id/1124414832/vector/logo-college-academy-university-school-emblem.jpg?s=612x612&w=0&k=20&c=KplV_FF3tzMgGuOtgN1DAmz2PqJQ4Yp2P0yZpZ8llHs=" alt="KES Shroff College Logo">
+<nav>
+<h4> 
+Buddha Institute of Technology, GIDA, Gorakhpur</h4>
+<h4>बुद्धा इंस्टिट्यूट ऑफ़ टेक्नोलॉजी, गीडा, गोरखपुर </h4>
+</nav>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="college2.html">About Us</a>
+      <a href="college3.html">Academics</a>
+      <a href="notices.html">Notices</a>
+      <a href="college4.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <div class="content">
+    <h1>Notices and Announcements</h1>
+
+    <!-- Notice Grid -->
+    <div class="notice-grid">
+      <!-- Degree Notices -->
+      <div class="notice-box">
+        <h2>Degree Notices</h2>
+        <ul>
+          <li><a href="#">Degree Award Ceremony 2023-2024 Circular</a></li>
+          <li><a href="#">Notice of Fees for All Learners of Degree U&J PG of Science & Commerce AY 2024-2025</a></li>
+          <li><a href="#">Notice for PG Even Semester Fees 2024-2025</a></li>
+          <li><a href="#">Notice for Degree Learners for Scholarship 2024-2025</a></li>
+          <li><a href="#">Notice for All UG FY Sem I and PG Sem I Learners Academic Year 2024-2025</a></li>
+          <li><a href="#">See All Notices</a></li>
+        </ul>
+      </div>
+
+      <!-- Junior Notices -->
+      <div class="notice-box">
+        <h2>Junior Notices</h2>
+        <ul>
+          <li><a href="#">Passing Certificate Feb 2024 Distribution of FY B.Com, B.Sc, and Professional</a></li>
+          <li><a href="#">Regular, Form 17 & Repeaters of SYLC Commerce Schedule for Assessment Based Test of HSC Board 2024</a></li>
+          <li><a href="#">Notice for HSC Exam Board Form Filling for SYLC Science and Commerce Failure, Repeater, and Class Improvement Students</a></li>
+          <li><a href="#">Notice for SYLC Science and Commerce Regular Students HSC</a></li>
+        </ul>
+      </div>
+
+      <!-- Attendance -->
+      <div class="notice-box">
+        <h2>Attendance</h2>
+        <ul>
+          <li><a href="#">Attendance for Junior Science and Commerce</a></li>
+          <li><a href="#">Attendance for Degree Science and Commerce</a></li>
+        </ul>
+      </div>
+
+      <!-- Feedback / Grievances / ICC -->
+      <div class="notice-box">
+        <h2>Feedback / Grievances / ICC</h2>
+        <ul>
+          <li><a href="#">All Stakeholders Feedback Statistics</a></li>
+          <li><a href="#">Student Feedback on Curriculum</a></li>
+          <li><a href="#">Parent Feedback on Curriculum</a></li>
+          <li><a href="#">Employer Feedback on Curriculum</a></li>
+          <li><a href="#">Teacher Feedback on Curriculum</a></li>
+          <li><a href="#">Alumni Feedback on Curriculum</a></li>
+          <li><a href="#">Student Satisfaction Survey</a></li>
+          <li><a href="#">Student Grievance Redressal Cell</a></li>
+          <li><a href="#">Exam Grievance Redressal Cell</a></li>
+          <li><a href="#">Internal Complaint Committee</a></li>
+        </ul>
+      </div>
+
+      <!-- Admission Links -->
+      <div class="notice-box">
+        <h2>Admission Links</h2>
+        <ul>
+          <li><a href="#">Ph.D Zoology Admission</a></li>
+          <li><a href="#">Online Payment of Fees for Even Semesters 2024-25</a></li>
+          <li><a href="#">Ph.D Admission AY 2024-2025</a></li>
+          <li><a href="#">PG Part-II Admissions: M.Sc / M.Com / M.A Part-II (Unaided) AY 2024-2025</a></li>
+          <li><a href="#">Second Year UG Admission AY 2024-2025</a></li>
+          <li><a href="#">TYBCom & Professional Program Admissions AY 2024-2025</a></li>
+          <li><a href="#">General Instructions</a></li>
+          <li><a href="#">TYBSc & Professional Programs Admissions AY 2024-2025</a></li>
+          <li><a href="#">TYBSc Admission for Aided Division AY 2024-2025</a></li>
+          <li><a href="#">Third Year UG Admission Schedule for AY 2024-2025</a></li>
+          <li><a href="#">Admission for Ph.D in Physics (2022-23)</a></li>
+          <li><a href="#">Download TCSC Profile and Undertaking Forms</a></li>
+        </ul>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="notice-box">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#">Excellent Opportunity for 10+2 Pass-out Students for Study Abroad International Twinning Program</a></li>
+          <li><a href="#">BSc in Artificial Intelligence and Machine Learning</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+  <p>Contact Us: <a href="mailto:info@Buddha Institute of Technology.edu">info@BuddhaInstituteofTechnology.edu</a> | Phone: <a href="tel:+912212345678">+91-22-1234-5678</a></p>
+  <p>Follow Us: 
+    <a href="https://facebook.com/yourcollege" aria-label="Facebook" target="_blank" rel="noopener noreferrer">Facebook</a> | 
+    <a href="https://twitter.com/yourcollege" aria-label="Twitter" target="_blank" rel="noopener noreferrer">Twitter</a> | 
+    <a href="https://instagram.com/yourcollege" aria-label="Instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+  </p>
+
+
+</footer>
+</body>
+</html>

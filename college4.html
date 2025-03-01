@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - College Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: rgba(0, 51, 102, 0.9);
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+        
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .hero h1 {
+      font-size: 4em;
+      color: white;
+      position: relative;
+      z-index: 1;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .quick-links {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      background-color: rgba(244, 244, 244, 0.9);
+      position: relative;
+      z-index: 1;
+    }
+    .quick-links a {
+      text-decoration: none;
+      color: #003366;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    .content {
+      padding: 60px 20px 20px;
+      background-color: white;
+      position: relative;   
+      z-index: 1;
+    }
+    .content h2 {
+      color: #003366;
+    }
+    footer {
+      background-color: rgba(0, 51, 102, 0.9);
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="https://media.istockphoto.com/id/1124414832/vector/logo-college-academy-university-school-emblem.jpg?s=612x612&w=0&k=20&c=KplV_FF3tzMgGuOtgN1DAmz2PqJQ4Yp2P0yZpZ8llHs=" alt="KES Shroff College Logo">
+<nav>
+<h4> 
+Buddha Institute of Technology, GIDA, Gorakhpur</h4>
+<h4>बुद्धा इंस्टिट्यूट ऑफ़ टेक्नोलॉजी, गीडा, गोरखपुर </h4>
+</nav>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="college2.html">About Us</a>
+      <a href="college3.html">Academics</a>
+      <a href="notices.html">Notices</a>
+      <a href="college4.html">Contact Us</a>
+    </nav>
+  </header>
+
+
+  <!-- Main Content -->
+  <div class="content">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you! Reach out to us for any inquiries or feedback.</p>
+    <h2>Address</h2>
+    <p><h4> 
+Buddha Institute of Technology, GIDA, Gorakhpur</h4>
+<h4>बुद्धा इंस्टिट्यूट ऑफ़ टेक्नोलॉजी, गीडा, गोरखपुर </h4>
+</p>
+    <h2>Phone</h2>
+    <p>+91-22-1234-5678</p>
+    <h2>Email</h2>
+    <p>info@Buddhacollege.edu</p>
+    <h2>Contact Form</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  
+</body>
+</html>
